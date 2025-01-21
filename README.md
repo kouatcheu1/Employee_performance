@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This report provides a comprehensive analysis of employee performance, productivity, and retention trends based on an organizational dataset containing key employee and company attributes. The data includes factors such as job roles, experience levels, salaries, employment types, and geographical locations, providing a rich foundation for deriving actionable insights.
+<p align="justify">This report provides a comprehensive analysis of employee performance, productivity, and retention trends based on an organizational dataset containing key employee and company attributes. The data includes factors such as job roles, experience levels, salaries, employment types, and geographical locations, providing a rich foundation for deriving actionable insights.</p>
 
 ## Problem Statement
 1. Do higher salaries correlate with senior positions or advanced experience levels?
@@ -31,26 +31,27 @@ The data contains the following columns:
 *You can access the dataset* [here](https://github.com/kouatcheu1/Employee_performance/blob/main/Employee_Data.csv)
 
 ## Skills demonstrated
-Data Collection and Cleaning using sql
-Employee Performance Analysis using sql
-Productivity and Engagement Insights using python
-Attrition and Retention Modeling using python
-Retention Strategy Recommendations using python
-Interactive Dashboard Creation using tableau and Power BI
+- Data Collection and Cleaning using sql
+- Employee Performance Analysis using sql
+- Productivity and Engagement Insights using python
+- Attrition and Retention Modeling using python
+- Retention Strategy Recommendations using python
+- Interactive Dashboard Creation using tableau and Power BI
 
 ## Visualization 📊
 
 Data visualization was created with power bi and Tableau using different charts to highlight hidden insights from the data.
 
+# Power BI Dashboard
 ![](Dashboard_Power_BI.jpg)
 
 **Features**:
 - The cumulative salary across all employees is 22 million and the Company operates in 36 locations.
 - Water fall chart for the work setting by salary
-*Insights: Remote Work: A significant salary allocation is made to remote work settings, likely reflecting a high number of remote workers or competitive salaries for such roles.* *Salaries in hybrid settings are slightly less than remote, indicating moderate while In-person had lowest salary.*
+*<p align="justify">Insights: Remote Work: A significant salary allocation is made to remote work settings, likely reflecting a high number of remote workers or competitive salaries for such roles.* *Salaries in hybrid settings are slightly less than remote, indicating moderate while In-person had lowest salary.</p>*
 
 - Area chart for the employment type by salary
-*Insights: Full-Time Employees dominate the salary allocation, contributing most to the total salary while Contract/Part-Time/Freelance categories contribute minimally, indicating either fewer employees in these roles or lower pay rates for such employment types.*
+*<p align="justify">Insights: Full-Time Employees dominate the salary allocation, contributing most to the total salary while Contract/Part-Time/Freelance categories contribute minimally, indicating either fewer employees in these roles or lower pay rates for such employment types.</p>*
 
 - Clustered bar chart for the job category by salary
 *Insights: Highest Paying Categories:*
@@ -69,6 +70,29 @@ Data visualization was created with power bi and Tableau using different charts 
 
 _You can interact with the Power BI dashboard_ [here](https://app.powerbi.com/groups/me/reports/d7d394be-47c9-4cf0-8454-de11c98e78ca/ReportSection?experience=power-bi)
 
+# Tableau Dashboard
+![](Tableau_Dashboard.png)
+
+**Features**:
+- Bar Chart for the Salary Distribution by Job Category
+<p align="justify">Insights: This chart gives detailed insights on Job category distribution and salary. Out of all ten Job Category Datta Science and Research tend to have the highest salary while Cloud and database job category has lowest salary.</p>*
+
+- Line chart for Work year by Salary
+*<p align="justify">Insights: This chart shows salary trend by work year, four years were present in the data and the insights gives that 2020 is the year with the lowest salary, it increased drastically when it got to 2021, 2022 and 2023 has the highest salary. Hence, 2020 has the lowest salary distribution while 2023 has highest salary distribution.</p>*
+
+- Packed Bubble for Employment and Salary Distribution
+*Insights: From the report Full-time employment types dominate higher salary while Freelance employment type dominates lowest salary.*
+
+- Tree Map for Work Settings and salary distribution
+*Insights: In-person arrangements show higher salaries compared to hybrid or remote roles.*
+
+- Highlight Table for Experience level, Employment type and Salary Distribution
+*<p align="justify"> Insights: From the result Full time employment type who has Senior experience level has highest salary while Freelance employment type who has Entry level experience level has lowest salary distribution.  This implies that employee’s with full time employment type tends to have higher salary as well as employee’s with senior experience level tends to have higher salary, this implies that the higher the experience level the higher the salary.</p>*
+
+- Slicer for Filtering records with Work year, Experience level, Employment type, Job category
+
+*You can access the tableau file* [here](https://github.com/kouatcheu1/Employee_performance/blob/main/Tableau_Dashboard.twb)
+
 ## Analysis 📉📈
 
 o **Employee Performance Analysis was performed using sql, and the following were derived**:
@@ -80,19 +104,19 @@ Insights: Understand how experience level impacts average salaries.
 Outcome: From the result, staff that works in-person has highest average salary while staffs that works hybrid has lowest average salary.
 - Evaluate which job roles and experience levels tend to have better salaries.
 Insights: Identify high-paying job roles and the experience levels they require.
-Outcome: From the result Machine Learning and Ai is the job role with highest average salary at executive experience level while Data Quality and Operation has the lowest average salary in job role at entry level experience level. This implies that staff with Executive experience level tends to have highest salary while staff with entry level tends to have lower salary. 
+<p align="justify">Outcome: From the result Machine Learning and Ai is the job role with highest average salary at executive experience level while Data Quality and Operation has the lowest average salary in job role at entry level experience level. This implies that staff with Executive experience level tends to have highest salary while staff with entry level tends to have lower salary.</p> 
 
 *You can access the SQL scripts file* [here](https://github.com/kouatcheu1/Employee_performance/blob/main/EMPLOYEE_ANALYSIS_SQL.sql)
 
 o **Productivity and Engagement Insights Using Python was performed, and the following were derived**:
 - Determine whether senior employees are more productive (using salary as a proxy).
-*Outcome*: From the result, senior level has highest count of staff while executive has lowest staff. Staffs with executive experience level has highest average salary while staff with entry level has lowest average salary. This tends that staffs with Executive experience level are more productive using salary as a proxy while staffs with entry level has lower productivity in the company using salary as proxy.
+*<p align="justify">Outcome*: From the result, senior level has highest count of staff while executive has lowest staff. Staffs with executive experience level has highest average salary while staff with entry level has lowest average salary. This tends that staffs with Executive experience level are more productive using salary as a proxy while staffs with entry level has lower productivity in the company using salary as proxy.</p>
 - Engagement Across Job Categories
-*Outcome*: From the result, Machine Learning and AI is the job category with the highest salary while Data Quality and Operations has lowest salary. Data Engineering has the highest employee count while Cloud and Database has lowest employee count. 
+*<p align="justify">Outcome*: From the result, Machine Learning and AI is the job category with the highest salary while Data Quality and Operations has lowest salary. Data Engineering has the highest employee count while Cloud and Database has lowest employee count.</p> 
 - Geographical Influence on Productivity
-*Outcome*: From the results, employee average salary and regions shows that employee who lives in QATAR has the highest average salary while employees that lives in INDONESIA receives the lowest salary.
+*<p align="justify">Outcome*: From the results, employee average salary and regions shows that employee who lives in QATAR has the highest average salary while employees that lives in INDONESIA receives the lowest salary.</>
 - Tenure and Engagement Trends
-*Outcome*: A new column was added to calculate the tenure by subtracting the current year from employee’s work year. The new column was use to group the average salary to get if longer tenure correlates with higher salary. From the result, employee’s with the higher tenure tends to have lower salary while employee’s with lower tenure had highest average salary.
+*<p align="justify">Outcome*: A new column was added to calculate the tenure by subtracting the current year from employee’s work year. The new column was use to group the average salary to get if longer tenure correlates with higher salary. From the result, employee’s with the higher tenure tends to have lower salary while employee’s with lower tenure had highest average salary.</p>
 
 o **Preprocessing Data for Attrition Modeling using different python libraries was performed, and the following were derived**:
 The confusion matrix shows the model's performance:
