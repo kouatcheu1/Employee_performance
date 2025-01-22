@@ -43,17 +43,17 @@ The data contains the following columns:
 Data visualization was created with power bi and Tableau using different charts to highlight hidden insights from the data.
 
 # Power BI Dashboard
-![](Dashboard_Power_BI.jpg)
+![](Salary_Employee_Dashboard2.jpg)
 
 **Features**:
-- The cumulative salary across all employees is 22 million and the Company operates in 36 locations.
-- Water fall chart for the work setting by salary
-*<p align="justify">Insights: Remote Work: A significant salary allocation is made to remote work settings, likely reflecting a high number of remote workers or competitive salaries for such roles.* *Salaries in hybrid settings are slightly less than remote, indicating moderate while In-person had lowest salary.</p>*
+- The Average salary across all employees is $149,000.93 and the Company operates in 70 locations.
+- Water fall chart for the staff distribution by experience level
+*<p align="justify">Insights: The Senior level tops the highest staff employed, followed by the mid level, entry level and executive which is the lowst</p>*
 
-- Area chart for the employment type by salary
+- stacked bar chart for the average salary by employment type
 *<p align="justify">Insights: Full-Time Employees dominate the salary allocation, contributing most to the total salary while Contract/Part-Time/Freelance categories contribute minimally, indicating either fewer employees in these roles or lower pay rates for such employment types.</p>*
 
-- Clustered bar chart for the job category by salary
+- The tree map for the average salary by job category
 *Insights: Highest Paying Categories:*
 1.	Data Science and Research: Tops the salary chart, indicating it is a key focus area for the company.
 2.	Data Engineering: Another high-paying category, reflecting its critical importance.
@@ -62,7 +62,7 @@ Data visualization was created with power bi and Tableau using different charts 
 *- Lower Paying Categories:*
 1.	Leadership and Management, Data Architecture, and Data Management roles have comparatively lower salary allocations, potentially due to fewer employees in these categories.
 
-- Donut chart for the Experience Level by Salary
+- Bar chart for the Average salary by Experience Level
 *Insights*: Senior-Level: Occupies a large portion of the salary distribution, indicating a preference for experienced professionals or competitive pay for expertise.
 •	Mid-Level: Forms the second largest category, showing a balance of skilled professionals.
 •	Entry-Level: Has a smaller share of the salary, reflecting lower pay rates or fewer roles for junior employees.
