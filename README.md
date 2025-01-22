@@ -68,7 +68,7 @@ Data visualization was created with power bi and Tableau using different charts 
 •	Entry-Level: Has a smaller share of the salary, reflecting lower pay rates or fewer roles for junior employees.
 •	Executive-Level: While the smallest category is Executive level.
 
-_You can interact with the Power BI dashboard_ [here](https://github.com/kouatcheu1/Employee_performance/blob/main/Power_BI_Employee_Dashboard.pbix)
+_You can interact with the Power BI dashboard_ [here](https://app.powerbi.com/view?r=eyJrIjoiMTRhMzU3OWMtYjliZi00N2UyLWFkNzQtNmE3OWY0MTMwNDk3IiwidCI6ImJmZTU4MzM2LWNhYjktNGRlNS1iYTc1LThjZmY3ZTIyZWMyYyIsImMiOjN9)
 
 # Tableau Dashboard
 ![](Tableau_Dashboard.png)
